@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace, sans-serif, monaco;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 250px ;
+    background-color: white;
+    color: #fff;
+    border-bottom: 4px solid lightgray;
+    border-top: 0;
+}
+
+
+body{
+    /* background-image: url("assets/background2.png"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(156,238,255,1) 100%);
+}
+
+#weather{
+    text-align: center;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 200px;
+    align-items: center;
+    border-bottom: 4px solid lightgray;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.content img{
+    height: 100px;
+    width: auto;
+}
+
+#info_bar{
+    padding-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 225px;
+
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: center;
+    border-bottom: 4px solid lightgray;
+}
+
+.wrapper2{
+    display: flex;
+    justify-content: center;
+}
+
+#myCanvasContainer {
+    width:100%;
+    height:240px;
+  }
